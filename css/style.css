@@ -1,11 +1,20 @@
-[class*='col-'] {
+/* [class*='col-'] {
   height: 110px;
+  text-align: center;
+  line-height: 100%;
+  padding: 30px 10px;
 }
 
 .col-6 .container {
   padding: 5px;
+} */
+
+.container [class*='col-'] {
+  padding: 60px 30px;
+  text-align: center;
+  vertical-align: middle;
 }
+
 .col-6 .container > [class*='col-'] {
   background-color: coral;
-  /* height: 100%; */
 }
