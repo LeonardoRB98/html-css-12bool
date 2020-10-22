@@ -8,13 +8,17 @@
 .col-6 .container {
   padding: 5px;
 } */
-
+.container {
+  height: 200px;
+}
 .container [class*='col-'] {
-  padding: 60px 30px;
+  /* padding: 60px 30px; */
   text-align: center;
   vertical-align: middle;
+  line-height: 200px;
 }
 
 .col-6 .container > [class*='col-'] {
-  background-color: coral;
+  background-color: lightcoral;
+  height: 90%;
 }
