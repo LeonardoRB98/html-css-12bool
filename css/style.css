@@ -1,0 +1,12 @@
+
+.container {
+  padding: 2px;
+}
+/* .col-6 .container > [class*='col-'] {
+  background-color: pink;
+} */
+
+.nested {
+  border: none;
+  background-color: white;
+}
